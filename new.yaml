@@ -1,0 +1,36 @@
+# Hey thisis a yaml file
+my-course: "MLOPs Bootcamp"
+version: 1.0
+price: 499
+is_public: true
+release_date: 2024-04-30
+pre_enroll: null
+category:
+ - MLOPs
+ - DevOps
+ - MLOPs Bootcamp
+
+course_dev: ["murthy", "kavya","jagannath"]
+dev_details:
+ - name: "murthy"
+   email: "30jagannathdas@gmail.com"
+   role: "Author"
+ - name: "kavya"
+   email: "dudejdanddj@gmail.com"
+   role: "Co-Author"
+ - name: "jagannath"
+   email: "95jagannathdas@gmail.com"
+   role: "Editor"
+ - {name: "jagannath", email: "95jagannathdas@gmail.com", role: "Editor"}
+
+short_description: >
+ This is a course for 
+ mlops bootcamp certification 
+ from udemy.
+# This will be treated as multiline string
+
+detail_description: |
+ This is a course for 
+ mlops bootcamp certification 
+ from udemy.
+# This will be treated as multiline string
